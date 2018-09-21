@@ -649,21 +649,21 @@ nav .main-menu li:hover .sub-menu {
 
 .slider-banner-home .item-slide .item-slide-text {
     text-align: left;
-    width: 190px;
-    left: 0px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50%;
+    margin-right: -50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
 }
 
 .block-list-case-study .case-study .text {
 
     text-align: left;
-    width: 158px;
-    left: 0px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50%;
+    margin-right: -50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
 
 }
 
