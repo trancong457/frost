@@ -1,0 +1,669 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+}
+img{
+    max-width: 100%;
+
+}
+.object-fit-none
+{  object-fit: none;}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.logo-small {
+    margin-top: 18px;
+}
+
+.banner-home-background {
+    /* background-image: url("../images/YoldhL8Q.png"); */
+    height: auto;
+    background-size: cover;
+    width: 100%;
+}
+
+.slider-banner-home {
+    width: 100%;
+
+}
+
+.slider-banner-home .item-slide {
+    position: relative;
+}
+
+.slider-banner-home .item-slide .item-slide-text {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.index-summary-introduce {
+    padding-bottom: 50px;
+}
+
+.index-summary-introduce .title-introduce {
+    font-size: 52px;
+    font-weight: bold;
+    margin-top: 47px;
+    font-family: 'Poppins Bold';
+}
+
+.index-summary-introduce .introduce-summary {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+.index-summary-introduce .introduce-content {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #4a4646;
+    line-height: 27px;
+    white-space: pre-wrap;
+}
+
+.index-summary-introduce .introduce-sigle {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.index-summary-about {
+    background: #000;
+    padding: 52px 0px;
+    text-align: center;
+}
+
+.index-summary-about img {
+    margin: auto;
+}
+
+.index-summary-about .index-about-title {
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Poppins Bold';
+}
+
+.index-about-des {
+    margin-top: 31px;
+    color: #fff;
+    max-width: 532px;
+    margin: auto;
+    text-align: left;
+    line-height: 28px;
+    margin-top: 31px;
+}
+
+.index-summary-testimonial .index-testimonial-title {
+    font-size: 52px;
+    width: 100%;
+
+    margin-top: 52px;
+    font-family: 'Poppins Bold';
+}
+
+.index-testimonial-summary {
+    font-size: 42px;
+    width: 100%;
+    margin-top: 52px;
+    font-family: 'Poppins Bold';
+}
+.index-testimonial-image{
+    margin-top: 320px;
+    text-align: right;
+}
+.index-testimonial-des {
+    margin-top: 31px;
+    color: #B2B2B2;
+    margin: auto;
+    text-align: left;
+    line-height: 28px;
+    margin-top: 25px;
+    padding-bottom: 40px;
+    white-space: pre-line;
+}
+
+.index-summary-consistent {
+    background-image: url('../images/Vr57lVVA.png');
+    background-repeat: no-repeat;
+    height: 929px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+.index-summary-consistent-title {
+    font-size: 100px;
+    margin-top: 79px;
+    font-weight: bold;
+    font-family: 'Poppins Bold';
+    color: #fff;
+}
+
+.index-summary-consistent-summary {
+    font-size: 28px;
+    text-align: left;
+    width: 100%;
+    margin-top: 21px;
+}
+
+.index-summary-consistent-des {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+    line-height: 28px;
+    white-space: pre-line;
+}
+
+.index-summary-contact {
+    background: #000;
+    padding-top: 95px;
+}
+
+.index-summary-contact-title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Poppins Bold';
+    color: #fff;
+}
+
+.index-summary-contact-des {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.form-send-message-footer input, .form-send-message-footer input:focus {
+    background: #000;
+    border-radius: 0;
+    border: 2px solid #fff;
+}
+.form-send-message-footer input::placeholder , .form-send-message-footer textarea::placeholder { color: #fff; font-size: 1.1em; }
+.form-send-message-footer textarea, .form-send-message-footer textarea:focus {
+    background: #000;
+    border-radius: 0;
+    border: 2px solid #fff;
+}
+
+.form-send-message-footer button {
+    float: right;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins Bold';
+    font-size: 14px;
+    border-radius: 0px;
+    width: 125px;
+}
+
+.wrapper-submit-footer {
+    float: right;
+    display: block;
+    width: 100%;
+}
+
+footer {
+    border-top: 5px solid #A9B61E;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #B2B2B2;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+    margin-bottom: 15px;
+}
+
+nav .main-menu {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+nav .main-menu li {
+    list-style: none;
+    float: left;
+}
+
+nav .main-menu li a {
+    padding: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins Medium';
+}
+
+nav .main-menu li a:hover {
+    color: #A9B61E;
+}
+
+nav .active,
+nav .main-menu .current_page_item a,
+nav .main-menu .current-menu-parent a,
+nav .main-menu .current-page-ancestor a {
+    color: #A9B61E;
+}
+
+#menu-portfolio-menu .current-menu-item a {
+    color: #000;
+}
+
+.logo {
+    position: absolute;
+}
+
+nav .main-menu .sub-menu {
+    background: #A9B61E;
+    position: absolute;
+    width: 290px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding: 7px 0px;
+    display: none;
+}
+
+nav .main-menu .sub-menu li {
+    width: 100%;
+    padding-left: 3px;
+    line-height: 35px;
+
+}
+
+nav .main-menu .sub-menu li:hover {
+
+    background: rgb(139, 150, 20);
+}
+
+nav .main-menu .sub-menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+nav .main-menu li:hover .sub-menu {
+    display: block;
+}
+
+/*==============Service==========================*/
+.block-list-case-study {
+}
+
+.block-list-case-study .case-study img {
+    transition: all .2s ease-in-out;
+}
+
+
+.block-list-case-study .case-study {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.block-list-case-study .case-study img {
+    width: 100%;
+   object-fit: none;
+ /*    object-fit: cover; */
+}
+
+.block-list-case-study .case-study .text {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/*=========================Portfolio================*/
+.menu-portfolio {
+    background: #A9B61E;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.menu-portfolio ul li {
+    display: inline;
+    list-style: none;
+    float: left;
+}
+
+.menu-portfolio ul li a {
+    font-weight: 500;
+    color: #fff;
+}
+
+.menu-portfolio ul {
+    padding-top: 20px;
+}
+
+.menu-portfolio ul li:nth-child(2) {
+    padding-left: 19%;
+    padding-right: 15%;
+}
+
+.menu-portfolio ul {
+    width: 100%;
+}
+
+.menu-portfolio ul li a:hover {
+    color: #000;
+}
+
+.menu-portfolio .sub-menu-portfotio {
+    position: absolute;
+    width: 300px;
+    z-index: 9;
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.menu-portfolio .sub-menu-portfotio li {
+    display: block;
+    width: 100%;
+    padding: 7px 0px;
+}
+
+.menu-portfolio .sub-menu-portfotio li a {
+    color: #989696;
+}
+
+.menu-portfolio ul ul li:nth-child(2) {
+    padding: 0;
+}
+
+.about-map-intro {
+    background: #A9B61E;
+}
+
+.about-map-intro img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-map-intro .description {
+
+    color: #fff;
+    padding: 90px;
+    padding-bottom: 40px;
+}
+
+.about-prize {
+    text-align: center;
+    margin-top: 67px;
+    width: 100%;
+}
+
+.about-prize p {
+    max-width: 258px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#menu-portfolio-menu .current_page_item a {
+    color: #000;
+}
+
+.form-send-message-footer .wpcf7-form-control-wrap {
+    width: 100%;
+}
+
+.wrapper-submit-footer .wpcf7-submit {
+    background: #fff;
+    color: #000;
+    width: 155px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    border: none;
+}
+
+
+.wpcf7-validation-errors {
+    color: red;
+}
+
+.-margin-left-15 {
+    margin-left: -15px;
+}
+
+.-margin-right-15 {
+    margin-right: -15px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.title-contact-us {
+    margin-top: 63px;
+    font-size: 52px;
+    margin-bottom: 13px;
+    font-family: 'Poppins Bold';
+    color: #fff;
+    padding-left: 79px;
+}
+
+.social-footer a:nth-child(1) {
+    margin-right: 5px;
+    margin-left: 19px;
+}
+
+.social-footer a:nth-child(2) {
+    margin-right: -35px;
+    margin-left: 11px;
+}
+
+.about-map-intro .description.has-title-h1 {
+    padding-top: 0px;
+}
+
+.menu-portfolio ul li a.color_000 {
+    color: #000;
+}
+
+.taxonomy-portfolio-list-menu {
+    position: relative;
+}
+
+.taxonomy-portfolio-list-menu .sub-menu-portfotio {
+    position: absolute;
+    width: 100%;
+    left: 40px;
+}
+.about-us-sub-title
+{
+    font-size: 30px;     font-family: 'Poppins Bold';
+    color: #000;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.width-100-percent{
+    width: 100%;
+}
+.max-width-400{
+    width: 400px;
+}
+.max-width-500{
+    width: 500px;
+    overflow: hidden;
+}
+.portfolio-introduce-image{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    max-height: 466px;
+}
+.portfolio-introduce-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio-introduce-image-wrapper{
+    padding-top: 60px;
+    height: 100%;
+}
+.portfolio-introduce-image-title{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+.portfolio-introduce-image-opacity{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #6b9e10a1;
+}
+.index-summary-introduce .introduce-content-portfolio{
+    margin-bottom: 30px;
+    line-height: 33px;
+    max-height: 195px;
+}
+.Menu-mobile{
+    display: none;
+}
+.menu-main-menu-container{
+
+}
+.title-introduce{
+    color: #000;
+}
+.form-send-message-footer input{
+    line-height: 2.5;
+    color: #fff;
+}
+.menu-footer-menu-container{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.menu-footer-menu-container ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.form-send-message-footer{
+    margin-bottom: 60px;
+}
+.case-study{
+    width: 100%;
+}
+.text-quote-contact{
+    margin-top: 339px;
+    text-align: center;
+}
+.name-quote-contact{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+.tax-portfolio_category .block-list-case-study .container-fluid .panel-layout .panel-grid-cell{
+    margin-left: 0px;
+}
+.panel-grid-cell{
+/*     margin-left: -15px;
+    margin-right: -15px; */
+}
+.taxonomy-get_first_post_wrap{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.block-post-taxomony-first-block{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.caldera-grid  form .btn{
+    background: #A9B61E;
+    color: #fff;
+    border: none;
+}
+.over-study-case
+{
+  background:rgb(146, 144, 80);; 
+  opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+    display: flex;
+}
+.show-logo-normal-sub .logo{
+    position: inherit;
+}
+
+
+.slider-banner-home .item-slide .item-slide-text {
+    text-align: left;
+    width: 190px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-list-case-study .case-study .text {
+
+    text-align: left;
+    width: 158px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
