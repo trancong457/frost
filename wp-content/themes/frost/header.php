@@ -32,7 +32,7 @@ $detect = new Mobile_Detect;
             $slug_page = get_page_template_slug( $post->ID ); 
             $show_normal = ! $detect->isMobile() && $slug_page !== 'page-portfolio.php' ? true : false;
             ?>
-                    <div class="row <?php echo $post->ID == 74 ? 'show-logo-normal-sub': '' ?> ">
+                    <div class="row <?php //echo $post->ID == 74 ? 'show-logo-normal-sub': '' ?> ">
                         <div class=" col-7  col-md-5">
                         <?php if ($detect->isMobile() || $slug_page === 'page-portfolio.php' || is_singular('portfolio') || is_tax('portfolio_category')  ){
                             ?>

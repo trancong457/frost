@@ -291,6 +291,7 @@ nav .main-menu .current-page-ancestor a {
 
 .logo {
     position: absolute;
+    z-index: 999;
 }
 
 nav .main-menu .sub-menu {
@@ -651,7 +652,6 @@ nav .main-menu li:hover .sub-menu {
     text-align: left;
     left: 50%;
     margin-right: -50%;
-    top: 50%;
     transform: translate(-50%, -50%);
     width: auto;
 }
@@ -661,7 +661,6 @@ nav .main-menu li:hover .sub-menu {
     text-align: left;
     left: 50%;
     margin-right: -50%;
-    top: 50%;
     transform: translate(-50%, -50%);
     width: auto;
 
